@@ -23,8 +23,8 @@ jobs:
       - name: Install npm dependencies
         run: npm i --force
       
-      - name: Lint code
-        run: npm run lint
+    
+        
       
       - name: Run tests
         run: npm run test
